@@ -1,4 +1,5 @@
 import React from "react";
+import Buy from "./Buy";
 import CardImage from "./CardImage";
 import CardItem from "./CardItem";
 import UnitsStates from "./UnitsStates";
@@ -14,6 +15,7 @@ export default function Card({hero}) {
       <CardItem type="clash-card__unit-description">
         {hero.description}
       </CardItem>
+      <Buy name={hero.name}/>
       <UnitsStates units={hero.units} name={hero.name}/>
     </div>
   );

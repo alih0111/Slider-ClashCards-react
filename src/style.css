@@ -281,3 +281,48 @@ body {
     color: #ee5487;
     font-size: 3rem;
 }
+
+.buy-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+.badge {
+    background: #d41010;
+    padding: 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+p {
+    margin: 2px;
+}
+
+.counter {
+    display: flex;
+}
+
+.bg-info {
+    background: #4facff;
+}
+
+.bg-success {
+    background: #109832;
+}
+
+.count {
+    margin: 2px 10px;
+    font-size: 1.4rem;
+}
+
+button {
+    padding: 2px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    width: 35px;
+    font-size: 1rem;
+}
